@@ -1,0 +1,75 @@
+.alarm-css {
+    display: none;
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin: 0 0 15px;
+}
+
+
+.bootstrap .tab-content>.tab-pane.pane-active {
+    display: block;
+}
+
+.categories-tree-item {
+    list-style: none;
+    margin-bottom: 15px;
+
+}
+.little-header-pack {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.bootstrap .categories-tree-item label {
+    font-size: 14px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+.bootstrap .categories-tree-item label.category-bold {
+    font-weight: bold;
+}
+.panel-footer {
+    position: relative;}
+.panel-footer-cover {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 599;
+}
+i[class^="icon-caret-"]{
+    cursor:pointer;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+i[class^="icon-caret-"]:hover {
+    color: #2eacce;
+}
+i[class^="icon-caret-"]:active {
+    position: relative;
+    top: 2px;
+}
+.bootstrap .table tbody>tr>td {
+    vertical-align: top;
+}
+.w-100 {
+    width: 100%;}
+.meta-hidden{
+    display: none;}
+.bootstrap .ta-meta{resize:vertical;
+}
+.td-id{
+    width: 50px;}
+.td-pos{
+    width: 200px;}
+
+#content.bootstrap h3:not(.modal-title), #content.bootstrap .panel-heading {
+    margin: 0 0 15px 0;}
+.bootstrap .select-katalog {
+    width: 300px;}
